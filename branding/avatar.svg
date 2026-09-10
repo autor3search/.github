@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0c100d"/>
+  <g fill="none" stroke-linecap="round">
+    <!-- the loop itself, unlit: every experiment that has not run yet -->
+    <circle cx="256" cy="256" r="150" stroke="#1d3a2a" stroke-width="26"/>
+    <!-- kept: the arc the run has actually earned -->
+    <path d="M 256 106 A 150 150 0 0 1 375.6 345.6" stroke="#4ad688" stroke-width="26"/>
+    <!-- discarded: measured, rejected, and still part of the record -->
+    <path d="M 330 371.5 A 150 150 0 0 1 214.6 402.7" stroke="#e8654d" stroke-width="26"/>
+  </g>
+  <!-- the head of the loop: the candidate on the bench right now -->
+  <circle cx="256" cy="106" r="54" fill="#0c100d"/>
+  <circle cx="256" cy="106" r="38" fill="#4ad688"/>
+  <circle cx="256" cy="106" r="60" fill="none" stroke="#4ad688" stroke-width="8" opacity="0.3"/>
+</svg>
