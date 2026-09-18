@@ -31,6 +31,7 @@ nothing already accepted is thrown away.
 | **Java** | [`autor3search/java`](https://github.com/autor3search/java) | release jar + launcher | early but working — validated on org.json |
 | **C#** | [`autor3search/csharp`](https://github.com/autor3search/csharp) | `dotnet tool install -g autor3search-csharp` | on nuget · early but working |
 | **Rust** | [`autor3search/rust`](https://github.com/autor3search/rust) | `cargo install --locked autor3search-rust` | on crates.io · measures with criterion |
+| **Swift** | [`autor3search/swift`](https://github.com/autor3search/swift) | `brew install autor3search/tap/autor3search-swift` | v0.1.0 · not yet run on a third-party repo |
 
 Same loop, same rules in every port. They differ only in how the harness installs
 and what it must not touch.
